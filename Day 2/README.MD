@@ -1,8 +1,12 @@
-1. StorageFactory 
-    * import another contract in to this contract using import 
-    * as long as we have the ABI(Application binary interface) Address
+1. ##[StorageFactory]
+    * StorageFactory is a Solidity smart contract that allows importing other contracts using their ABI and address.
 
-2. Inheritance & Override
-    * For overriding the function add virtual keyword to the function  
-    * Add (override) keyword to the function which we have to overwrite
-    * By the (is) keyword we can inheriat the another contract
+    1. Importing Contracts
+        * To import another contract into StorageFactory, you need to have its Application Binary Interface (ABI) and Address.
+
+2. ##[Inheritance and Override]
+    * To inherit from another contract and override its functions, follow these steps:
+    
+        1. Add the virtual keyword to the function you want to override in the parent contract.
+        2. In the child contract, use the override keyword when defining the overridden function.
+        3. Use the is keyword to inherit from the parent contract.
